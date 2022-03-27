@@ -54,7 +54,7 @@ func main() {
 	fmt.Scanln(&vpath)
 	readFile, err := os.Open(vpath)
 
-	fmt.Println("\nusername: ", username, "\nUrl: ", scopeUrl, "\nWordlist:", vpath)
+	fmt.Println("\nUsername: ", username, "\nUrl: ", scopeUrl, "\nWordlist:", vpath)
 
 	if err != nil {
 		log.Fatal(err)
