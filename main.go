@@ -74,7 +74,7 @@ func main() {
 		i = i + 1
 		if i > j {
 			i = i + 1
-			fmt.Println("Notification You tried the ", j, "th password. Still no results! ( pass: ", password, ")")
+			fmt.Println("Notification: You tried the ", j, "th password. Still no results! ( Tried password: ", password, ")")
 			j = j + 250
 		}
 	}
